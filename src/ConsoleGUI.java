@@ -108,7 +108,7 @@ public class ConsoleGUI {
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_C) { // Increment counter on 'z' press
                     countP++;
-                    counterP.setText("Number of sets to the outside hitter: "+countP);
+                    counterP.setText("Number of sets to the pipe hitter: "+countP);
                 }
             }
 
