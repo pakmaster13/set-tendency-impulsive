@@ -65,7 +65,7 @@ public class ConsoleGUI {
         frame.addKeyListener(new KeyListener() {
             @Override
             public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_X) { // Increment counter on 'z' press
+                if (e.getKeyCode() == KeyEvent.VK_X) { // Increment counter on 'x' press
                     countMB++;
                     counterMB.setText("Number of sets to the middle blocker: "+countMB);
                 }
@@ -86,7 +86,7 @@ public class ConsoleGUI {
         frame.addKeyListener(new KeyListener() {
             @Override
             public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_V) { // Increment counter on 'z' press
+                if (e.getKeyCode() == KeyEvent.VK_C) { // Increment counter on 'c' press
                     countO++;
                     counterO.setText("Number of sets to the opposite hitter: " + countO);
                 }
@@ -106,7 +106,7 @@ public class ConsoleGUI {
         frame.addKeyListener(new KeyListener() {
             @Override
             public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_C) { // Increment counter on 'z' press
+                if (e.getKeyCode() == KeyEvent.VK_V) { // Increment counter on 'v' press
                     countP++;
                     counterP.setText("Number of sets to the pipe hitter: "+countP);
                 }
